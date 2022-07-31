@@ -1,0 +1,117 @@
+body, p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktop-version, .mobile-version {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.desktop-version {
+    width: 1440px;
+    height: 900px;
+}
+
+.frame {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 9px;
+    width: 595px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+
+.img-container {
+    display: flex;
+}
+
+.img-desktop {
+    width: 302px;
+    border-radius: 8px 0 0 8px;
+}
+
+.text-container {
+    text-align: left;
+    padding-left: 32px;
+    position: relative;
+}
+
+.header, .product-sale {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.product-type {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+
+.header {
+    color: hsl(212, 21%, 14%);
+    width: 200px;
+    line-height: 32px;
+    padding: 20px 0;
+}
+
+.detail {
+    font-size: 14px;
+    width: 240px;
+    padding: 8px 0 30px 0;
+    line-height: 22px;
+}
+
+.product-sale {
+    color: hsl(158, 36%, 37%);
+}
+
+.product-price {
+    font-size: 13px;
+    text-decoration: line-through;
+    position: absolute;
+    left: 178px;
+    bottom: 114px;
+}
+
+.btn-container {
+    position: relative;
+    margin: 24px 0 30px 0;
+}
+
+.add-to-btn {
+    background-color: hsl(158, 36%, 37%);
+    border-style: none;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 14px 62px 14px 90px;
+}
+
+.add-to-btn:hover {
+    background-color: hsl(156, 39%, 19%);
+}
+
+.cart-icon {
+    position: absolute;
+    top: 15px;
+    left: 62px;
+    width: 15px;
+    z-index: 100;
+}
